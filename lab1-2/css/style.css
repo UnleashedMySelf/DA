@@ -485,7 +485,7 @@ nav {
   /* line 369, ../sass/style.sass */
   .slider-center img {
     width: 391px;
-    height: 252px;
+    height: 100%;
     padding: 20px; }
 
 /* line 374, ../sass/style.sass */
