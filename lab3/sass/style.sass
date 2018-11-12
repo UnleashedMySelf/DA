@@ -1,0 +1,285 @@
+*
+	box-sizing: border-box
+	scroll-behavior: smooth
+	margin: 0
+	padding: 0
+	outline: none
+	font-family: 'Catamaran', sans-serif
+h1
+	color: #333333
+	font-size: 36px
+	font-weight: 500
+	line-height: 54px
+h2
+	color: #00a8b2
+	font-size: 30px
+	font-weight: 700
+	line-height: 36px
+h3
+	color: #00a8b2
+	font-size: 16px
+	font-weight: 700
+p
+	font-size: 16px
+	font-weight: 300
+	line-height: 24px
+	color: #333333
+body
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column
+	header
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		background: url(../img/header.png) top no-repeat
+		background-attachment: fixed
+		background-size: cover
+		.header-grad
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			flex-direction: column
+			width: 100%
+			background: linear-gradient(to top, rgba(0,241,255, .8), rgba(0,168,178, .9))
+			.header-overlay
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				flex-direction: row
+				align-self: center
+				justify-content: space-between
+				max-width: 900px
+				width: 100%
+				min-height: 669px
+				padding-bottom: 40px
+				.logo
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					flex-direction: column
+					z-index: 200
+					align-items: center
+					width: 300px
+					height: 422px
+					justify-content: space-evenly
+					align-self: center
+					text-align: center
+					img
+						width: 276px
+				.form
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					position: relative
+					display: flex
+					width: 377px
+					height: 100%
+					padding: 0 0 20px 0
+					align-self: center
+					box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7)
+					background-color: rgba(51,51,51,.9)
+					flex-direction: column
+					.buttons
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						flex-direction: row
+						button
+							background-color: #ffffff
+							opacity: 0.7
+							width: 190px
+							height: 58px
+							border: none
+							color: #333333
+							font-size: 18px
+							font-weight: 700
+							line-height: 36px
+							&.active
+								opacity: 1
+								color: #ffffff
+								background: none
+					form
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						flex-direction: column
+						padding-top: 15px
+						align-items: center
+						button
+							width: 95%
+							height: 40px
+							background-color: #ff6600
+							border: none
+							font-size: 30px
+							font-weight: 700
+							line-height: 36px
+							letter-spacing: 3px
+							&:active
+								background-color: #00a8b2
+						p
+							color: #ffffff
+							font-size: 16px
+							font-weight: 300
+							line-height: 24px
+							width: 95%
+						input
+							display: -webkit-flex
+							display: -moz-flex
+							display: -ms-flex
+							display: -o-flex
+							display: flex
+							width: 95%
+							flex-direction: column
+							margin: 10px 0
+							font-size: 18px
+							font-weight: 400
+							line-height: 36px
+
+	main
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+		align-self: center
+		justify-content: space-evenly
+		min-height: 565px
+		width: 100%
+		max-width: 900px
+		.about
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			flex-direction: column
+			align-items: center
+			p
+				width: 75%
+				padding-top: 15px
+		.hiw
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			flex-direction: column
+			.advantages
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				flex-direction: row
+				align-self: center
+				justify-content: space-between
+				width: 100%
+				padding-top: 35px
+				.advantage
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					flex-direction: column
+					width: 23%
+					align-items: center
+					text-align: center
+					img
+						width: 70px
+	footer
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+		min-height: 121px
+		background: #333333
+		justify-content: space-between
+		padding: 0 54px
+		.logo-down
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-self: center
+			img
+				width: 160px
+				height: 64px	
+		.contact
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			flex-direction: column
+			align-items: center
+			align-self: center
+			p
+				color: #ffffff
+				&::before
+					display: inline-block
+					content: ''
+					height: 3px
+					width: 35px
+					background-color: #fff
+					vertical-align: middle
+					margin-right: 10px
+				&::after
+					display: inline-block
+					content: ''
+					height: 3px
+					width: 35px
+					background-color: #fff
+					vertical-align: middle
+					margin-left: 10px
+			a
+				color: #ffffff
+				text-decoration: none
+				&:hover
+					color: #00a8b2
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+	body header .header-grad .header-overlay
+		flex-wrap: wrap
+		flex-direction: column
+	body main .about
+		padding: 60px 0
+	body main .hiw .advantages
+		flex-wrap: wrap
+		flex-direction: column
+		align-items: center
+		padding-top: 60px
+	body main .hiw .advantages .advantage
+		width: 80%
+		padding-bottom: 60px
+	body main .about p
+		text-align: center
+@media screen and (min-width: 320px) and (max-width: 500px)
+	body footer
+		padding: 30px 0
+		flex-wrap: wrap
+		flex-direction: column
+	body header .header-grad .header-overlay .form 
+		width: 300px
